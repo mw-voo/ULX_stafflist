@@ -8,6 +8,8 @@ To install
 ==============
 Place in GarrysMod\garrysmod\addons\
 
+the full path once placed will look like: GarrysMod\garrysmod\addons\ULX_Adminlist\lua\ulx\modules\sh\ulx_adminlist.lua
+
 Note: 
 ==============
 Current hardcoded values for ranks are: {'helper','moderator','admin','superadmin','owner'}, if a rank's title is changed ingame, be sure to update
