@@ -25,6 +25,6 @@ function ulx.listadmins(calling_ply)
 
 	end
 end
-local adminlist = ulx.command(CATEGORY_NAME, "ulx stafflist", ulx.listadmins, "stafflist", true)
+local adminlist = ulx.command(CATEGORY_NAME, "ulx stafflist", ulx.listadmins, "!stafflist", true)
 adminlist:defaultAccess( ULib.ACCESS_ALL )
 adminlist:help("Shows a list of currently online administrators.")
