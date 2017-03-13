@@ -18,7 +18,7 @@ function ulx.listadmins(calling_ply)
 			end
 		end
 		if #admins_online >= 1 then
-			ulx.fancyLogAdmin( calling_ply, "Currently online admins: #T", admins_online )
+			ulx.fancyLogAdmin( calling_ply, true, "Currently online admins: #T", admins_online )
 		else
 			ULib.tsayError(	calling_ply, "No admins are currently online.",true	)
 		end
